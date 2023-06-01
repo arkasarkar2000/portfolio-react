@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+:root{
+  --rose-color: #e11d48;
+  --blue-color: #4f46e5;
+  --h1-color: #94a3b8;
+  --bg-color: black;
+  --txt-color : white;
+
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'General Sans', sans-serif;
+  color: var(--txt-color);
+  background-color: var(--bg-color);
+  scroll-behavior: smooth;
+}
+
+
+
+.btn{
+  display: inline-block;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: -0.05em;
+  background-color: var(--rose-color);
+  padding: 0.5em 1em ;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(225, 29 , 72, 0.5), 0 6px 6px rgba(225,29,72,0.5), 0 0 100px -10px #e11d48;
+}
+
+
+.light{
+  background-color: var(--txt-color);
+  color: var(--bg-color);
+}
+
+
+.btn:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px rgba(225, 29 , 72, 0.25), 0 10px 10px rgba(225,29,72,0.22), 0 0 120px -10px #e11d48;
+
+}
+
+h5{
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+p{
+  color: var(--txt-color);
+  font-size: 26px;
+  font-weight: bold;
+}
+
+strong{
+  color: var(--blue-color);
+}
+
+.title{
+  text-align: center;
+  font-size: 38px;
+}
+.icon{
+  margin: 20px;
+  font-size: 36px;
+}
+
+/* scrollbar */
+body::-webkit-scrollbar {
+  width: 8px;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: var(--rose-color);
+  
+}
+
+
+
+.light{
+  background-color: var(--txt-color);
+  color: var(--bg-color);
+}

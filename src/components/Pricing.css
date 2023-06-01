@@ -1,0 +1,26 @@
+.pricing{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.cards{
+    border: 1px solid var(--blue-color);
+    padding: 25px;
+    text-align: center;
+    height: 500px;
+    line-height: 55px;
+    margin: 10px;
+}
+
+.cards h1{
+    font-size: 46px;
+    font-weight: bold;
+    color: var(--blue-color);
+}
+
+.cards p {
+    font-size: 20px;
+}
