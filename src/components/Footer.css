@@ -29,3 +29,59 @@
 .arrow{
     background: transparent;
 }
+
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+    .footer-container {
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .footer-icons {
+        margin-bottom: 20px;
+    }
+    
+    .footer-icons a {
+        font-size: 20px;
+        padding: 15px;
+    }
+    
+    .footer-text h5 {
+        font-size: 18px;
+    }
+}
+
+/* Tablet Devices */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer-container {
+        height: 200px;
+        margin-top: 50px;
+    }
+    
+    .footer-icons a {
+        font-size: 25px;
+        padding: 20px;
+    }
+    
+    .footer-text h5 {
+        font-size: 20px;
+    }
+}
+
+/* Laptop Devices */
+@media only screen and (min-width: 1024px) {
+    .footer-container {
+        height: 250px;
+        margin-top: 100px;
+    }
+    
+    .footer-icons a {
+        font-size: 30px;
+        padding: 25px;
+    }
+    
+    .footer-text h5 {
+        font-size: 22px;
+    }
+}

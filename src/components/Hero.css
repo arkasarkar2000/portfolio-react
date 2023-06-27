@@ -45,3 +45,56 @@
 .hero-text p strong{
     color: var(--blue-color);
 }
+
+
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+    .hero-container {
+        height: auto;
+        padding: 50px 20px;
+    }
+    
+    .hero-img {
+        width: 150px;
+        height: 150px;
+        margin-top: 50px;
+    }
+    
+    .hero-text h1 {
+        font-size: 50px;
+    }
+}
+
+/* Tablet Devices */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .hero-container {
+        height: 600px;
+    }
+    
+    .hero-img {
+        width: 180px;
+        height: 180px;
+        margin-top: 80px;
+    }
+    
+    .hero-text h1 {
+        font-size: 70px;
+    }
+}
+
+/* Laptop Devices */
+@media only screen and (min-width: 1024px) {
+    .hero-container {
+        height: 750px;
+    }
+    
+    .hero-img {
+        width: 200px;
+        height: 200px;
+        margin-top: 100px;
+    }
+    
+    .hero-text h1 {
+        font-size: 90px;
+    }
+}

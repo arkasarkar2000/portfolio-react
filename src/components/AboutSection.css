@@ -44,3 +44,88 @@
 }
 
 
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+    .about-container {
+        padding-top: 30px;
+    }
+    
+    .top {
+        height: 400px;
+    }
+    
+    .bottom {
+        position: static;
+        padding: 10px;
+    }
+    
+    .bottom h2 {
+        font-size: 24px;
+    }
+    
+    .bottom h4 {
+        font-size: 30px;
+    }
+    
+    .icon {
+        margin: 10px;
+        font-size: 30px;
+    }
+}
+
+/* Tablet Devices */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .about-container {
+        padding-top: 40px;
+    }
+    
+    .top {
+        height: 500px;
+    }
+    
+    .bottom {
+        padding: 15px;
+    }
+    
+    .bottom h2 {
+        font-size: 26px;
+    }
+    
+    .bottom h4 {
+        font-size: 32px;
+    }
+    
+    .icon {
+        margin: 15px;
+        font-size: 32px;
+    }
+}
+
+/* Laptop Devices */
+@media only screen and (min-width: 1024px) {
+    .about-container {
+        padding-top: 50px;
+    }
+    
+    .top {
+        height: 700px;
+    }
+    
+    .bottom {
+        position: absolute;
+        padding: 20px;
+    }
+    
+    .bottom h2 {
+        font-size: 28px;
+    }
+    
+    .bottom h4 {
+        font-size: 36px;
+    }
+    
+    .icon {
+        margin: 20px;
+        font-size: 36px;
+    }
+}

@@ -33,3 +33,55 @@ input::placeholder {
     color: var(--blue-color);
     
 }
+
+/* Mobile devices */
+@media (max-width: 767px) {
+    .form {
+        padding: 15px;
+        margin: 15px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+    }
+}
+
+/* Tablet devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .form {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    input,
+    textarea {
+        width: 80%;
+    }
+}
+
+/* Laptop devices */
+@media (min-width: 1024px) {
+    .form {
+        padding: 25px;
+        margin: 25px;
+    }
+
+    form {
+        width: 600px;
+    }
+
+    input,
+    textarea {
+        width: 500px;
+    }
+}
+

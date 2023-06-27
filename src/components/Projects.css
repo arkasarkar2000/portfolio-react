@@ -15,6 +15,7 @@
     background-color: grey;
     color: var(--bg-color);
     margin-bottom: 100px;
+    
 }
 
 .project-img{
@@ -72,4 +73,68 @@
 h5{
     background-color: grey;
     color: var(--bg-color);
+}
+
+
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+    .project-container {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    
+    .project-cards {
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+    }
+    
+    .project-img {
+        height: 200px;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    .title {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        font-size: 30px;
+    }
+}
+
+/* Tablet Devices */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .project-img {
+        height: 300px;
+        width: 80%;
+    }
+    
+    .title {
+        padding-top: 80px;
+        padding-bottom: 30px;
+        font-size: 34px;
+    }
+}
+
+/* Laptop Devices */
+@media only screen and (min-width: 1024px) {
+    .project-cards {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .project-img {
+        height: 200px;
+        width: 400px;
+        margin-right: 50px;
+        margin-left: 20px;
+    }
+    
+    .title {
+        padding-top: 100px;
+        padding-bottom: 40px;
+        font-size: 38px;
+    }
 }
